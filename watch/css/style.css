@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;500;700&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar ul a{
+    font-size: 13px;
+}
+.hero h1{
+    font-size: 65px;
+    color: #3B4045;
+}
+.hero p{
+    font-size: 18px;
+}
+.hero .btn{
+    background-color: #F9A743;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 15px 40px rgba(180, 112, 34, 0.5);
+    transition: all .8s ease;
+}
+.hero .btn:hover{
+    background-color: #c58c46;
+}
+.features {
+    margin-top: 80px ;
+}
+.features h2 ,
+.features h3 ,   
+.features p    {
+    color: #3B4045;
+}
+.section{
+    background-color: #F9A743;
+    
+}
+.choose h2{
+    color:#3C3C3C ;
+}
+.choose p{
+    font-size: 18px;
+}
+.choose .btn{
+    background-color: #F9A743;
+    border-radius: 30px;
+    width: 175px;
+    height: 50px;
+    font-size: 16px;
+    box-shadow: 0 15px 40px rgba(180, 112, 34, 0.5);
+}
+.product{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.product .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+.product p{
+    font-size: 18px;
+}
+.input-group .btn1,
+.input-group .btn2{
+    border-radius: 25px;
+    border:0;
+    height: 45px;
+}
+.input-group .btn2{
+    background-color: #F9A743;
+}
+.review i{
+    color: #F9A743;
+}
+.review h2 ,.review p , .review h3{
+    color: #3B4045;
+}
+.review p{
+    font-weight: 300;
+}
+.review .btn{
+    background-color: #F9A743;
+    border-radius: 35px;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    box-shadow: 0 15px 40px rgba(180, 112, 34, 0.5);
+}
+.input-group{
+    cursor: pointer;
+}
+
+
+/* .owl .iteam{
+    position: relative;
+} */
+
+/* .owl .iteam .item-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(161, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease; */
+/* }*/ 
+
+/* .owl .iteam:hover .item-content{
+    opacity: 1;
+    visibility: visible;
+} */
+
+@media (max-width: 752px) {
+    /* .item-1 {
+        order: 1;
+    }
+    .item-2 {
+        order: 2;
+    }
+    .item-3 {
+        order: 4;
+    }
+    .item-4 {
+        order: 3;
+    } */
+    .items-row .image {
+        order: 1;
+    }
+    .items-row .text {
+        order: 2;
+    }
+}
